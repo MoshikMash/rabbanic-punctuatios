@@ -4,11 +4,11 @@ import os
 
 
 def main():
-    st.title("Rabbanical Punctuations Prediction")
-    st.markdown("<u>Prediction Description:</u>", unsafe_allow_html=True)
-    st.markdown("<span style=\"background-color: #ccffcc;\">Green:</span> correct prediction – TP", unsafe_allow_html=True)
-    st.markdown("<span style=\"background-color: #FFCCCC;\">Red:</span> Wrong prediction. square brackets (e.g. [.]) represent the punctuation in the original text (if any).", unsafe_allow_html=True)
-    st.markdown("[CLS] and [SEP] the beginning and the end of each chunk.")
+    st.title("Prediction of Rabbinical Punctuation")
+    st.markdown("<u>Description of Predictions:</u>", unsafe_allow_html=True)
+    st.markdown("<span style=\"background-color: #ccffcc;\">Green:</span> correct prediction - TP", unsafe_allow_html=True)
+    st.markdown("<span style=\"background-color: #FFCCCC;\">Red:</span> Wrong prediction. Square brackets (e.g. [.]) represent the original text's punctuation (if any).", unsafe_allow_html=True)
+    st.markdown("[CLS] and [SEP] stand for the beginning and end of each chunk.")
     
     file_list = os.listdir('test_files')
     file_name = st.selectbox('Select File', file_list)
