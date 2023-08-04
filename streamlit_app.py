@@ -4,7 +4,7 @@ import os
 
 
 def main():
-    st.markdown("## Prediction of Rabbinical Punctuation")
+    st.markdown("<div style='text-align: center;'>## Prediction of Rabbinical Punctuation</div>, unsafe_allow_html=True)
     st.markdown("<u>Description of Predictions:</u>", unsafe_allow_html=True)
     st.markdown("<span style=\"background-color: #ccffcc;\">Green:</span> correct prediction - TP", unsafe_allow_html=True)
     st.markdown("<span style=\"background-color: #FFCCCC;\">Red:</span> Wrong prediction. Square brackets (e.g. [.]) represent the original text's punctuation (if any).", unsafe_allow_html=True)
