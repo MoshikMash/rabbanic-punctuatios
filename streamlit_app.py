@@ -4,7 +4,7 @@ import os
 
 
 def main():
-    st.markdown("Prediction Description")
+    st.markdown("## prediction description")
     st.markdown("<span style=\"background-color: #ccffcc;\">Green:</span> correct prediction – TP", unsafe_allow_html=True)
     st.markdown("<span style=\"background-color: #FFCCCC;\">Red:</span> Wrong prediction. square brackets (e.g. [.]) represent the punctuation in the original text (if any).", unsafe_allow_html=True)
     st.markdown("[CLS] and [SEP] the beginning and the end of each chunk.")
