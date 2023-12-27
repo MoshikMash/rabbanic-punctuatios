@@ -20,7 +20,7 @@ st.write("""
        Notes: 
        1. The interface examines the first three chunks of the selected text.
        2. Green highlights represent the same punctuation marks as in the original text.
-       2. Red highlights represent differences between the predicted punctuation marks and the punctuation marks in the original text. 
+       3. Red highlights represent differences between the predicted punctuation marks and the punctuation marks in the original text. 
        """)
 
 # Select box for choosing a filename
