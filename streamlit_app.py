@@ -24,7 +24,7 @@ st.write("""
        """)
 
 # Select box for choosing a filename
-selected_filename = st.selectbox("Select Filename", unique_filenames)
+selected_filename = st.selectbox("Select File", unique_filenames)
 file_num = st.session_state.number_filename_dict[selected_filename]
 
 
